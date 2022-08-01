@@ -7,14 +7,16 @@
 
 //  arrS.sort((a, b) => a.length - b.length);
 
-//  return arrS[0];
+//  return arrS[0].length;
 // }
 
 // console.log(short(s));
 
+//WRITE A FUNCTION THAT MULTIPLYS TWO NUMBERS
 
-
-
+// function mult(a, b){
+//   return a * b;
+// }
 
 
 
