@@ -20,26 +20,26 @@
 
 // Function that calculates the averages of the numbers in a given list.
 // let list = [1, 2, 3, 4, 5]
-let list = []
+// let list = [ ]
 
-function averages (k) {
-  let len = k.length + 1;
-  let sum = 0
+// function averages (k) {
+//   let len = k.length + 1;
+//   let sum = 0
 
-  if(k === [] || isNaN(k) === true ){
-    return 0;
-  } 
+//   if(k === [] || isNaN(k) === true ){
+//     return 0;
+//   } 
 
 
-  for (let i = 0; i < k.length; i++){
-    sum += k[i];
-  }
+//   for (let i = 0; i < k.length; i++){
+//     sum += k[i];
+//   }
 
-  return sum/k.length;
+//   return sum/k.length;
   
-}
+// }
 
-console.log(averages(list));
+// console.log(averages(list));
 
 
 
