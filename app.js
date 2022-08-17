@@ -43,14 +43,25 @@
 
 //Reverse strings
 
-function reverse(k){
-  let revWord = k.split('').reverse().join('');
+// function reverse(k){
+//   let revWord = k.split('').reverse().join('');
+//   return revWord
+// }
 
-  return revWord
+// console.log(reverse('wilson'));
+
+//Is this a triangle
+
+function triangle(a, b, c){
+  if(a + b > c && a + c > b && c + b > a){
+    return true;
+  }
+
+  return false;
 }
 
 
-console.log(reverse('wilson'));
+console.log(triangle(3,6,2));
 
 
 
