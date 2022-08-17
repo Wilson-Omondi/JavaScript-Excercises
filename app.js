@@ -41,8 +41,16 @@
 
 // console.log(averages(list));
 
+//Reverse strings
+
+function reverse(k){
+  let revWord = k.split('').reverse().join('');
+
+  return revWord
+}
 
 
+console.log(reverse('wilson'));
 
 
 
