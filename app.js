@@ -52,21 +52,25 @@
 
 //Is this a triangle
 
-function triangle(a, b, c){
-  if(a + b > c && a + c > b && c + b > a){
-    return true;
-  }
+// function triangle(a, b, c){
+//   if(a + b > c && a + c > b && c + b > a){
+//     return true;
+//   }
 
-  return false;
+//   return false;
+// }
+
+// console.log(triangle(3,6,2));
+
+
+//REMOVE FIRST LETTER AND LAST LETTER OF A STRING
+
+function rem(str){
+
+  return str.slice(1,-1);
 }
 
-
-console.log(triangle(3,6,2));
-
-
-
-
-
+console.log(rem('wilson'));
 
 
 
