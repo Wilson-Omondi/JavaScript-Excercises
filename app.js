@@ -1,4 +1,4 @@
-//GIVEN A STRING OF WORDS RETURN THE LENGTH OF THE SHORTEST WORD(s)
+//================GIVEN A STRING OF WORDS RETURN THE LENGTH OF THE SHORTEST WORD(s)
 
 // let S = 'My name isk Wilson Omondi Wanga, My aspiration is to become an software ENGINEER'
 
@@ -12,13 +12,13 @@
 
 // console.log(short(s));
 
-//WRITE A FUNCTION THAT MULTIPLYS TWO NUMBERS
+//==============WRITE A FUNCTION THAT MULTIPLYS TWO NUMBERS
 
 // function mult(a, b){
 //   return a * b;
 // }
 
-// Function that calculates the averages of the numbers in a given list.
+// ============Function that calculates the averages of the numbers in a given list.
 // let list = [1, 2, 3, 4, 5]
 // let list = [ ]
 
@@ -41,7 +41,7 @@
 
 // console.log(averages(list));
 
-//Reverse strings
+//=================Reverse strings
 
 // function reverse(k){
 //   let revWord = k.split('').reverse().join('');
@@ -56,21 +56,42 @@
 //   if(a + b > c && a + c > b && c + b > a){
 //     return true;
 //   }
-
 //   return false;
 // }
 
 // console.log(triangle(3,6,2));
 
 
-//REMOVE FIRST LETTER AND LAST LETTER OF A STRING
+//=============REMOVE FIRST LETTER AND LAST LETTER OF A STRING
 
-function rem(str){
+// function rem(str){
 
-  return str.slice(1,-1);
+//   return str.slice(1,-1);
+// }
+
+// console.log(rem('wilson'));
+
+// ===========ALTERNATING CASE
+function alter(str){
+  let alt = [];
+  let sp = str.split('')
+  for(i = 0; i < sp.length; i++){
+    if (sp[i].toUpperCase() == sp[i]){
+      alt.push(sp[i].toLowerCase());
+    }
+    if (sp[i].toLowerCase() == sp[i]){
+      alt.push(sp[i].toUpperCase());
+    }
+    
+  }
+  return alt.join('');
 }
 
-console.log(rem('wilson'));
+console.log(alter('wilson OmoNdi'));
+
+
+
+
 
 
 
