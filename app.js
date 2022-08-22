@@ -112,6 +112,60 @@
 //   return false;
 // }
 
+// Check if two strings are anagram.
+// An anagram is a word or phrase formed by rearranging the letters of a different word.
+
+// function anagrams(stringA, stringB){
+//   stringA = stringA.replace(/[\W_]+/g, "");
+//   stringB = stringB.replace(/[\W_]+/g, "");
+
+//   var a = stringA.toLocaleLowerCase().split("").sort().join();
+//   var b = stringB.toLocaleLowerCase().split("").sort().join();
+
+//   if (a == b){
+//     return true;
+//   }else {
+//     return false;
+//   }
+
+// }
+// console.log(anagrams('Santa', 'Satan'));
+
+// ============Alternative Solution===
+
+
+// function anagrams(stringA, stringB){
+//   if(stringA.length !== stringB.length){
+//     return false;
+//   }else {
+//     var strObj = {}
+//     for(i=0; i < stringA.length; i++){
+
+//     }
+//   }
+// }
+// console.log(k)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
