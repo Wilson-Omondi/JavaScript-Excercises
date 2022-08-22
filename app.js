@@ -72,25 +72,45 @@
 // console.log(rem('wilson'));
 
 // ===========ALTERNATING CASE
-function alter(str){
-  let alt = [];
-  let sp = str.split('')
-  for(i = 0; i < sp.length; i++){
-    if (sp[i].toUpperCase() == sp[i]){
-      alt.push(sp[i].toLowerCase());
-    }
-    if (sp[i].toLowerCase() == sp[i]){
-      alt.push(sp[i].toUpperCase());
-    }
+// function alter(str){
+//   let alt = [];
+//   let sp = str.split('')
+//   for(i = 0; i < sp.length; i++){
+//     if (sp[i].toUpperCase() == sp[i]){
+//       alt.push(sp[i].toLowerCase());
+//     }
+//     if (sp[i].toLowerCase() == sp[i]){
+//       alt.push(sp[i].toUpperCase());
+//     }
     
-  }
-  return alt.join('');
-}
+//   }
+//   return alt.join('');
+// }
 
-console.log(alter('wilson OmoNdi'));
+// console.log(alter('wilson OmoNdi'));
 
 
+// =================HAS DUPLICATES==============
+// function hasDuplicates (array) {
+//   if (new Set(array).size == array.length){
+//     return false
+//   }else {
+//     return true
+//   }
+// }
+/**************** ALTERNATIVE SOLUTION ************/
 
+// function hasDuplicates (array){
+//   var valuesSoFar = Object.create(null)
+//   for (var i = 0; i < array.length; i++){
+//     var value = array[i];
+//     if(value in valuesSoFar){
+//       return true;
+//     }
+//     valuesSoFar[value] = true;
+//   }
+//   return false;
+// }
 
 
 
