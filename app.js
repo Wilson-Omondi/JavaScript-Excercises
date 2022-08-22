@@ -170,8 +170,21 @@
 // }
 // console.log(twoSum(nums, 9))
 
+// ==========================================================
+// =====================Valid Palindrome======================
+//============================================================
 
+// function palindrome (word){
+//   word = word.toLowerCase().replace(/[\W_]+/g)
+//   let pal = word.toLowerCase().replace(/[\W_]+/g).split('').reverse().join('');
 
+//   if (word == pal) {
+//     return true;
+//   }else {
+//     return false
+//   }
+//   return pal
+// }
 
 
 
