@@ -112,7 +112,7 @@
 //   return false;
 // }
 
-// Check if two strings are anagram.
+// =====================Check if two strings are anagram.
 // An anagram is a word or phrase formed by rearranging the letters of a different word.
 
 // function anagrams(stringA, stringB){
@@ -146,7 +146,29 @@
 // }
 // console.log(k)
 
+// ==========================================================
+// =====================TWO SUM==============================
+//============================================================
 
+// let nums = [2, 7, 11, 15]
+
+// function twoSum(nums, target) {
+
+//   let numObj = {};
+
+//   for(i = 0; i < nums.length; i++){
+//     var char = nums[i];
+
+//     if(target - char in numObj){
+//       return [numObj[target-char], i]
+//     }else {
+//       numObj[char] = i;
+//     }
+//   }
+
+//   return false;
+// }
+// console.log(twoSum(nums, 9))
 
 
 
