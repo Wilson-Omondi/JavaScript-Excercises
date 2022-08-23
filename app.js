@@ -215,7 +215,35 @@
 
 // console.log(maxProfit([8, 1, 17, 9, 20, 30, 15, 2, 0, 45, 50]));
 
+// ==========================================================
+// =====================Grouped Anagram======================
+//============================================================
 
+// function groupAnagrams (strs) {
+//   let map = new Map();
+//   let result = []
+
+//   for (let item of strs) {
+//     let reverse = item.split('').sort().join('');
+
+//     if(map.has(reverse)){
+//       map.get(reverse).push(item);
+
+//     }else {
+//       map.set(reverse, [item])
+//     }
+//     // strs.length=0;
+//     // for(let [key, value] of map){
+//     //   strs.push(value);
+//     // }
+//     for(let key of map.keys()){
+//       result.push(map.get(key))
+//       console.log(map.get(key));
+//     }
+//   }
+//   return result;
+// }
+// console.log(groupAnagrams(['eat', 'tea', 'tan', 'ate', 'nat']));
 
 
 
