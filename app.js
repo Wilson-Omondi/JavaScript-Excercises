@@ -270,6 +270,83 @@
 //   return res;
 // }
 
+// function topKFrequent(arr, n){
+//   let mp = new Map();
+
+  //put all the distinct elements in the map
+  //With element as key and count
+  //count as the value
+
+//   for(let i = 0; i < arr.length; i++){
+//     // Get the count for the element
+//     //if already present in the map
+//     //or get the default value.
+
+//     if(mp.has(arr[i])){
+//       mp.set(arr[i], mp.get(arr[i]) + 1) 
+//     }
+//   }
+
+//   //create a list from elements of HashMap
+//   var list = [...mp];
+
+//   //Sort the list
+
+//   list.sort((o1, o2)=>{
+//     if(o1[1] == o2[1])
+//     return o2[0] - o1[0];
+//     else{
+//       return o2[1] - o1[1]
+//     }
+//   })
+  
+//   for(let i = 0; i < n; i++){
+//     return console.log(mp)
+
+//   }
+//   return 
+
+// }
+// ========
+
+// function topKFrequent (strs, n) {
+//     let map = new Map();
+//     let result = []
+  
+//     for(let i = 0; i < strs.length; i++){
+//       let char = strs[i]
+
+//       if(map.has(char)){
+//         map.set(char, 1)
+//         // map.set(char, map.get(1))
+//         // map.set(char, map.get(char + 1))
+
+//       }else {
+//         map.set(char, map.get(char + 1))
+//         // map[char] = 1
+//       }
+//     }
+//     return map;
+//   }
+// =====
+// function topKFrequent(nums, k){
+//   var map = new Map()
+//   var res = new Array();
+
+//   for(let i = 0; i < nums.lenght; i++){
+//     if(nums[i] in map) map[nums[i]] += 1
+//     else{
+//       map[nums[i]] = 1
+//     }
+//   }
+
+//   var keys = Object.keys(map).sort((a, b)=>obj[b] - obj[a]);
+//   for(let i = 0; i<k; i++){
+//     res.push(keys[i])
+//   }
+
+//   return res;
+// }
 
 
 
