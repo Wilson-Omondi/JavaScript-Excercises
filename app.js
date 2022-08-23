@@ -186,7 +186,34 @@
 //   return pal
 // }
 
+// ==========================================================
+// =====================Best time to buy and sell stocks======================
+//============================================================
 
+// function maxProfit(prices){
+
+//   //Left and right pointers
+//   let left = 0; // buy
+//   let right = 1; //Sell
+//   let max_profit = 0;
+
+//   while (right < prices.length){
+
+//     if(prices[left] < prices[right]){
+//       let profit = prices[right] - prices[left]
+
+//       max_profit = Math.max(max_profit, profit)
+
+//     }else {
+//       left = right;
+//     }
+//     right++;
+//   }
+
+//   return max_profit;
+// }
+
+// console.log(maxProfit([8, 1, 17, 9, 20, 30, 15, 2, 0, 45, 50]));
 
 
 
