@@ -245,7 +245,30 @@
 // }
 // console.log(groupAnagrams(['eat', 'tea', 'tan', 'ate', 'nat']));
 
+// ==========================================================
+// =====================TOP K FREQUENT ELEMENTS==============
+//============================================================
+//=====Problem not yet solved
 
+
+// function topKFrequent(nums, k){
+//   var obj = {}
+//   var res = new Array();
+
+//   for(let i = 0; i < nums.lenght; i++){
+//     if(nums[i] in obj) obj[nums[i]] += 1
+//     else{
+//       obj[nums[i]] = 1
+//     }
+//   }
+
+//   var keys = Object.keys(obj).sort((a, b)=>obj[b] - obj[a]);
+//   for(let i = 0; i<k; i++){
+//     res.push(parseInt(keys[i]))
+//   }
+
+//   return res;
+// }
 
 
 
