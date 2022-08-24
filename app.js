@@ -348,6 +348,53 @@
 //   return res;
 // }
 
+// ==========================================================
+// =====================PRODUCT OF ARRAY EXCEPT==============
+//============================================================
+
+// let s = [1, 2, 3, 4]
+
+// function prod(arr){
+//   let n = arr.length;
+
+//   let leftToRigthProduct = new Array(n)
+//   let rightToLeftProduct = new Array(n)
+//   let ans = []
+
+//   leftToRigthProduct[0] = 1;
+//   rightToLeftProduct[n-1] = 1;
+
+//   for(let i = 1; i < n; i++){
+//     leftToRigthProduct[i] = leftToRigthProduct[i-1] * arr[i-1]
+//     rightToLeftProduct[n-i-1] = rightToLeftProduct[n-i] * arr[n-1]
+//   }
+
+//   for( let i = 1; i<n; i++){
+//     ans[i] =leftToRigthProduct[i] * rightToLeftProduct[i]
+//   }
+//   return ans
+// }
+
+// console.log(prod(s));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
