@@ -377,7 +377,32 @@
 
 // console.log(prod(s));
 
+//===============================================================================
+//==Length of the longest possible consecutive sequence numbers in JavaScript====
+//===============================================================================
 
+// const arr = [4, 6, 9, 1, 2, 8, 3, -1];
+
+// const consecutiveSequence = (arr = []) => {
+//   const consecutiveRight = {};
+
+//   let max = 0;
+//   for(let i = 0; i < arr.length; i+= 1){
+//     let curr = arr[i];
+//     if(consecutiveRight[curr] !== undefined) {
+//       continue; //we already have this number.
+//       consecutiveRight[curr] = 1 + (consecutiveRight[curr + 1] || 0)
+
+//       while(consecutiveRight[curr-1] !== undefined){
+//         consecutiveRight[curr-1] = consecutiveRight[curr] + 1;
+//         curr -1;
+//       }
+//       max = Math.max(max, consecutiveRight[curr])
+
+//     }
+//   }
+//   return max
+// }
 
 
 
